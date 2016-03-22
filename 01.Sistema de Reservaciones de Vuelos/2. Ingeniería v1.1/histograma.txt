@@ -1,0 +1,6 @@
+- Procesos
+- Lista maestra de requerimientos
+- Actas
+- Registros de cambio
+- Trasabilidad
+- Solicitud

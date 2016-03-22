@@ -1,0 +1,9 @@
+- PP-PMC
+- Proceso
+- Plan de Proyecto
+- Cronograma
+- Aceptacion de entregables
+- Informe mensual
+- Metricas
+- Actas
+- Registros de Riesgos

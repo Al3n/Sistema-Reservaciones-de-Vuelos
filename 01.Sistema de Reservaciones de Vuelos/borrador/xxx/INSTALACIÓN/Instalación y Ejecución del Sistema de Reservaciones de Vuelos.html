@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0080)http://www.cannes.itam.mx/Alfredo/Espaniol/Cursos/Java/Instalar/Instalacion.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Instalación y Ejecución del Sistema de Reservaciones de Vuelos</title>
+</head>
+
+<body>
+<h1 align="center"><strong>MANUAL  DE INSTALACIÓN Y EJECUCIÓN DEL SISTEMA DE RESERVACIONES DE VUELOS</strong></h1>
+<p align="left"><strong>Ambiente</strong> <strong>Desarrollo</strong> </p>
+<p align="left">IDE: <a href="http://www.netbeans.org/">NetBeans</a> <br>
+JDK: <a href="http://java.sun.com/javase/downloads/index.jsp">JDK</a><br>
+BaseDatos: <a href="http://office.microsoft.com/es-hn/access/default.aspx">MS Access</a></p>
+<p><strong>Configuración Base de Datos </strong></p>
+<p>BaseDatos: <a href="http://www.cannes.itam.mx/Alfredo/Espaniol/Cursos/Java/BD/Reservaciones.zip">ReservacionesBD.zip</a></p>
+<p>Descomprima  el archivo en el directorio donde usted lo desee. Después  de instalar los archivos de la aplicación, se debe instalar el driver de ODBC  que comunicará la aplicación con la base de datos. La base de datos es  una base de datos de MS Access, por lo cual es requerimiento tener instalado el  driver de ODBC de Access previamente.</p>
+<p>Para  instalar el ODBC debe de seguir los siguientes pasos (ver Figura 1):</p>
+<ol>
+  <li>En el menú de "<strong>Inicio</strong>-&gt;<strong>Configuración</strong>-&gt;<strong>Panel de Contro</strong>l" escoja la opción "<strong>Herramientas Administrativas</strong>" para luego escoger "<strong>Orígenes  de Datos (ODBC)</strong>".</li>
+  <li>Seleccione la carpeta o folder con nombre "<strong>DSN de Usuario</strong>" (las carpetas se encuentran en la parte superior de la ventana de ODBC).</li>
+  <li>De un click al botón "<strong>Agregar...</strong>" e inmediatamente  aparecerá una ventana que le preguntará que driver de ODBC será utilizado.  Seleccione  "<strong>Microsoft Access Driver (*.mdb)</strong>" y presione el botón de "<strong>Finalizar</strong>".</li>
+  <li>A continuación aparecerá una ventana para la  creación del ODBC, ingrese en el campo de "<strong>Nombre de Origen de Datos</strong>" ("<strong>Data Source Name</strong>") el nombre “<strong>reservaciones</strong>”,  que es el nombre del ODBC al que hace referencia la aplicación de reservaciones de vuelo. En el campo "<strong>Descripción</strong>" escriba una descripción para el  ODBC que se está creando, en este caso puede escribir “Sistema de Reservaciones de  Vuelos”. Posteriormente seleccione la base de datos presionando el botón de "<strong>Seleccionar…</strong>" y aparecerá un cuadro de  dialogo en donde se deberá seleccionar el archivo “<strong>Reservaciones.mdb</strong>”  que se encuentra en el directorio donde fue instalada. Por último se debe indicar  el nombre de usuario y el password que usa nuestro ODBC para comunicarse con la  base de datos. Dé un click al botón "<strong>Avanzadas…</strong>" y se desplegará en pantalla una  ventana nueva, en el campo "<strong>Login Name</strong>" teclee el nombre "<strong>alfredo</strong>"  y en el campo "<strong>Password</strong>" teclee "<strong>ITAM</strong>". De un click al botón "<strong>OK</strong>"  en las 3 ventanas que tiene activas y el ODBC estará creado en su computador.</li>
+</ol>
+<p align="center"><img src="./Instalación y Ejecución del Sistema de Reservaciones de Vuelos_files/Instalacion_clip_image002.jpg" alt="odbc" width="576" height="432"></p>
+<p align="center"><strong>Figura 1</strong>. Configuración ODBC </p>
+<p><strong>Ejecución</strong></p>
+<p>Versión Aplicación: <a href="http://www.cannes.itam.mx/Alfredo/Espaniol/Cursos/Java/v1.2/src/SistemaReservacionesNetBeans.zip">SistemaReservacionesNetBeans</a> (zip)
+<br>
+Versión Internet: <a href="http://www.cannes.itam.mx/Alfredo/Espaniol/Cursos/Java/v1.2/src/WebReservacionesNetBeans.zip">WebReservacionesNetBeans</a> (zip) </p>
+<p>Descomprima  el archivo en el directorio donde usted lo desee..</p>
+<p>Para  abrir el proyecto NetBeans se debe de seguir los siguientes pasos (ver Figura 2 y 3):</p>
+<ol>
+  <li>En el menú de "<strong>File</strong>-&gt;<strong>Open Project</strong>" seleccione (un solo click) el nombre del proyecto "<strong>SistemaReservacionesNetBeans</strong>" o "<strong>WebReservacionesNetBeans</strong>" para luego presionar "<strong>Open Project Folder </strong>"</li>
+  <li>Con el botón derecho del raón sobre el proyecto "<strong>SistemaReservacionesNetBeans</strong>" o "<strong>WebReservacionesNetBeans</strong>" seleccion "<strong>Run</strong>" en el menú para ejecutar el proyecto.</li>
+</ol>
+<p align="center"><img src="./Instalación y Ejecución del Sistema de Reservaciones de Vuelos_files/Instalacion_clip_image002_0000.jpg" alt="netbeans" width="632" height="474"></p>
+<p align="center"><strong>Figura 2</strong>. Apertura proyecto NetBeans </p>
+<p align="center"><img src="./Instalación y Ejecución del Sistema de Reservaciones de Vuelos_files/Instalacion_clip_image002_0001.jpg" alt="ide" width="630" height="450"></p>
+<p align="center"><strong>Figura 3</strong>. Ejecución proyecto NetBeans</p>
+
+
+</body></html>
